@@ -1,0 +1,189 @@
+body {
+  
+}
+
+
+/*------------------------wrappertop-----------------------*/
+
+.wrappertop {
+	border-bottom: 5px solid #AEB404;
+	width: 100%;
+	height: 100px;	 
+	background-color: black;
+	margin-bottom: 0px;
+}
+
+.factionwrapper {
+	float:left;
+	margin-left: 5%;
+}
+
+.menuwrapper {
+	float:right;
+	margin: 30px;
+}
+
+
+.logo {
+	color: white;
+	font-size: 27px;
+	font-family: Impact, Charcoal, sans-serif;	
+
+}
+.welcome {
+	color: white;
+	font-size: 18px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-indent: 20px;	
+
+}
+
+
+
+.welcome a {
+	color: #5882FA;
+	font: bold;
+}
+
+.welcome a:hover {
+	color: #2E64FE;
+}
+
+.welcome a:active {
+  color: #2E64FE;
+}
+
+
+.nav {
+	width:500px;
+	
+	
+	border-left: 50px;
+	padding: 5px 5px;
+	margin: 5px 5px;
+	list-style: armenian;
+}
+
+.nav span {
+    margin-left: 11px;   
+}
+
+.nav li  {
+	display: inline;
+}
+
+.nav a  {
+	color: white;
+	font: 20px "Arial Black", Gadget, sans-serif bold;
+	text-decoration: none;
+}
+
+.nav{
+	float:right;
+}
+
+
+
+
+/*------------------------wrapperus------------------------*/
+.wrapperus {
+	margin-top: 0px;
+	min-height: 325px;
+	padding-top:15px;
+	width: 100%;
+	background-color: #A4A4A4;
+}
+
+.imagewrapper {
+	float: left;
+	margin: 20px 5% 20px 15%;
+	border: 5px solid #FFFFF0;
+}
+
+.wahoowrapper {
+	margin-top: 20px ;
+	float: left;
+	position: static;
+	width: 35%;
+}
+
+.aboutus {
+	font: 21px "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	
+}
+
+.slogan {
+	font: 27px "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif bold;
+	
+}
+
+
+
+
+
+/*------------------------wrappermain----------------------*/
+
+.wrappermain {
+    margin-top: 0px;
+	padding: 15px;
+	background: black url("../img/Dota-2-Wallpaper1.jpg") no-repeat;
+    background-size: 100%;
+    min-height: 800px;
+
+}
+
+
+.gameplay {
+	float: left;
+	height: 700px;
+	width: 52%;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: -15px 0 10px 11%;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	padding-left: 5px;
+	padding-right: 2px;  
+}
+
+.gameplayheader {
+	
+	
+	/*background-color: #FBFBEF;*/
+
+	
+}
+
+.youtube {
+
+}
+
+.news {
+	float: left;
+	background-color: rgba(255, 255, 255, 0.9);
+	height: 700px;
+	width: 25%;
+	margin: -15px 5% 10px 0px;
+	padding-left:5px;
+	padding-right: 20px;
+	border-right: 2px solid;
+}
+
+.newsheader {
+	
+}
+
+
+.newslist p {
+	text-align: justify;
+
+}
+
+.button {
+    width: 20em;  height: 2em;
+}
+
+
+
+li{
+
+}
