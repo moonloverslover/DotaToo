@@ -5,12 +5,14 @@ body {
 
 /*------------------------wrappertop-----------------------*/
 
+
+
 .wrappertop {
-	border-bottom: 5px solid #AEB404;
-	width: 100%;
-	height: 100px;	 
+	border-bottom: 5px solid #FE9A2E;
+	width: 1264px;
+	height: 100px;
 	background-color: black;
-	margin-bottom: 0px;
+	margin: 0 auto;
 }
 
 .factionwrapper {
@@ -20,7 +22,7 @@ body {
 
 .menuwrapper {
 	float:right;
-	margin: 30px;
+	margin: 25px;
 }
 
 
@@ -55,16 +57,14 @@ body {
 
 
 .nav {
-	width:500px;
-	
-	
+	width:409px;
 	border-left: 50px;
 	padding: 5px 5px;
 	margin: 5px 5px;
 	list-style: armenian;
 }
 
-.nav span {
+span {
     margin-left: 11px;   
 }
 
@@ -78,43 +78,48 @@ body {
 	text-decoration: none;
 }
 
-.nav{
-	float:right;
-}
+
 
 
 
 
 /*------------------------wrapperus------------------------*/
 .wrapperus {
-	margin-top: 0px;
-	min-height: 325px;
-	padding-top:15px;
-	width: 100%;
-	background-color: #A4A4A4;
+    
+	margin: 0 auto;
+	height: 325px;
+	background: url("../img/bg.jpg") repeat;
+	width: 1264px;
+	border-bottom: 2px solid #A4A4A4;
+
+
+		
+	
 }
 
 .imagewrapper {
 	float: left;
-	margin: 20px 5% 20px 15%;
 	border: 5px solid #FFFFF0;
+	margin-left: 19%;
 }
 
 .wahoowrapper {
-	margin-top: 20px ;
+	
 	float: left;
-	position: static;
-	width: 35%;
+	width: 400px;
+	margin-left:2%;
+
+	
 }
 
 .aboutus {
 	font: 21px "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-	
+	text-align: left;
 }
 
 .slogan {
 	font: 27px "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif bold;
-	
+	text-align: left;
 }
 
 
@@ -124,31 +129,30 @@ body {
 /*------------------------wrappermain----------------------*/
 
 .wrappermain {
-    margin-top: 0px;
-	padding: 15px;
-	background: black url("../img/Dota-2-Wallpaper1.jpg") no-repeat;
-    background-size: 100%;
-    min-height: 800px;
-
+    margin: 0 auto;
+	background: url("../img/Dota-2-Wallpaper1.jpg") no-repeat;
+	background-size: 100%;
+	width: 1264px;
 }
 
 
 .gameplay {
 	float: left;
-	height: 700px;
-	width: 52%;
+	height: 550px;
+	width: 600px;
 	background-color: rgba(255, 255, 255, 0.2);
-	margin: -15px 0 10px 11%;
 	border-left: 2px solid;
 	border-right: 2px solid;
-	padding-left: 5px;
-	padding-right: 2px;  
+	margin-left: 10%
+	
 }
 
 .gameplayheader {
 	
 	
-	/*background-color: #FBFBEF;*/
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;	
+	color: white;
 
 	
 }
@@ -160,21 +164,22 @@ body {
 .news {
 	float: left;
 	background-color: rgba(255, 255, 255, 0.9);
-	height: 700px;
-	width: 25%;
-	margin: -15px 5% 10px 0px;
-	padding-left:5px;
-	padding-right: 20px;
+	height: 550px;
+	width: 400px;
+	padding-right: 26px;
 	border-right: 2px solid;
 }
 
 .newsheader {
-	
+
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;	
 }
 
 
 .newslist p {
 	text-align: justify;
+	/*font-family: Verdana, Helvetica, "Lucida Grande", Arial, sans-serif*/
 
 }
 
@@ -183,7 +188,39 @@ body {
 }
 
 
+.footer {
+	margin: 0 auto;
+	background: url("../img/bg.jpg")  repeat;
+	width: 1264px;
+}
 
-li{
+.lf {
+	float:left;
+	margin-left: 1%;
+}
+
+.rf {
+	float:right;
+	margin-right: 1%;
+}
+
+
+.clear {
+	clear:both;
+	background-color: red;
+	width: 120px;
+	height:20px;
+}
+
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0px;
+	line-height:0px;
+	
 
 }
+
+
